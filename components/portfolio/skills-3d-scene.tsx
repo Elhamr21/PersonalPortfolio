@@ -103,7 +103,7 @@ function SkillOrb({
   );
 }
 
-// Category sphere (central hub)
+{/* Category sphere (central hub) */}
 function CategorySphere({
   category,
   position,
@@ -164,7 +164,7 @@ function CategorySphere({
   );
 }
 
-// Connection lines between skills
+{/* Connection lines between skills */}
 function ConnectionLines({
   skills,
   categoryPositions,
@@ -199,7 +199,7 @@ function ConnectionLines({
   );
 }
 
-// Main skills 3D scene
+{/* Main skills 3D scene */}
 export function Skills3DScene({ activeCategory }: { activeCategory: string }) {
   const categoryPositions: Record<string, [number, number, number]> = {
     frontend: [-2, 0, 0],
@@ -207,7 +207,7 @@ export function Skills3DScene({ activeCategory }: { activeCategory: string }) {
     infrastructure: [2, 0, 0],
   };
 
-  // Calculate skill positions around their category
+  {/* Calculate skill positions around their category */}
   const skillPositions = skills.map((skill, index) => {
     const catSkills = skills.filter((s) => s.category === skill.category);
     const catIndex = catSkills.findIndex((s) => s.name === skill.name);
