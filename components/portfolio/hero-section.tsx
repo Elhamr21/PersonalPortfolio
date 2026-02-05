@@ -130,7 +130,7 @@ export function HeroSection() {
                 <div className="absolute inset-0 rounded-full bg-accent/20 blur-3xl -z-20" />
               </div>
 
-              {/* Floating particles around photo */}
+              {/* Floating particles around photos */}
               {[...Array(6)].map((_, i) => (
                 <motion.div
                   key={i}
