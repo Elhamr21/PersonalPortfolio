@@ -77,9 +77,9 @@ export function HeroSection() {
 
       <div className="max-w-7xl mx-auto w-full relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* LEFT SIDE - Text + Profile Photo */}
+          {/* LEFT SIDE - Text + Profile Photos */}
           <div className="order-2 lg:order-1">
-            {/* Profile Photo - Large and Styled */}
+            {/* Profile Photos - Large and Styled */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
