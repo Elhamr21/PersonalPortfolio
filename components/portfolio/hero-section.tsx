@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 
-// Dynamically import 3D scene to avoid SSR issues
+{/* Dynamically import 3D scene to avoid SSR issues and improve initial load performance */}
 const Hero3DScene = dynamic(
   () => import("./hero-3d-scene").then((mod) => mod.Hero3DScene),
   { 
