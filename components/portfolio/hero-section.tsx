@@ -206,7 +206,7 @@ export function HeroSection() {
               </span>
             </motion.h1>
 
-            {/* Typing subtitle */}
+            {/* Typing subtitle text */}
             <motion.h2
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
